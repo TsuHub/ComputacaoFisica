@@ -40,6 +40,12 @@ Em suma:<br/>
 Dado o funcionamento da sonda lambda, foi utilizado um Arduino UNO<br/>
 para realizar a leitura. Um fio foi conectado na porta analógica 0 do Arduino, e na outra ponta<br/>
 a conexão com a sonda (na parte metálica). O monitoramento da voltagem é feito pelo código no link:<br/>
-
-
+https://github.com/TsuHub/ComputacaoFisica/blob/main/Arduino/Nível%20de%20oxigênio/Sonda_Lambda/Sonda_Lambda.ino<br/>
+<br/>
+A saída é dada no Monitor serial.<br/>
+<br/>
+Materiais de consulta:<br/>
+https://forum.arduino.cc/t/reading-an-oxygen-sensor/247652<br/>
+https://mundoprojetado.com.br/lendo-valor-analogico-c-o-arduino/<br/>
+https://mundoprojetado.com.br/voltimetro-amperimetro-e-ohmimetro-c-arduino/<br/>
 
