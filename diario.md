@@ -5,11 +5,15 @@ http://www.ngkntk.com.br/manual/pdf/sonda.pdf<br/>
 https://www.youtube.com/watch?v=_CcmKM-pT1Q<br/>
 https://www.youtube.com/watch?v=EHcgp7xy3xU&t=394s<br/>
 
+===========================================================================================
+
+<br/>
 <br/>
 Aquisição da Sonda Lambda MTE-THOMPSON - 7810.12.040 - 311<br/>
 Funcionamento: 5V/300ºC<br/>
 <br/>
 
+===========================================================================================
 
 <br/>
 Um motor efetua a combustão da mistura do oxigênio com o combustível para seu funcionamento.<br/>
@@ -27,5 +31,15 @@ Para a sonda lambda de 1 fio, caso a leitura indique uma tensão próxima de 1.0
 é dado que a mistura é rica e para indicações próximas de 0.0V, a mistura é pobre.<br/>
 <br/>
 Em suma:<br/>
-- Mistura rica  = pouco O2 e mais combustível  | 1.0V
-- Mistura pobre = muito O2 e menos combustível | 0.0V
+- Mistura rica  = pouco O2 e mais combustível  | 1.0V<br/>
+- Mistura pobre = muito O2 e menos combustível | 0.0V<br/>
+
+===========================================================================================
+
+<br/>
+Dado o funcionamento da sonda lambda, foi utilizado um Arduino UNO<br/>
+para realizar a leitura. Um fio foi conectado na porta analógica 0 do Arduino, e na outra ponta<br/>
+a conexão com a sonda (na parte metálica). O monitoramento da voltagem é feito pelo código no link:<br/>
+
+
+
