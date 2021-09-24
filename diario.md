@@ -6,6 +6,26 @@ https://www.youtube.com/watch?v=_CcmKM-pT1Q<br/>
 https://www.youtube.com/watch?v=EHcgp7xy3xU&t=394s<br/>
 
 <br/>
-Aquisição da Sonda Lambda MTE-THOMPSON - 781012040/311<br/>
+Aquisição da Sonda Lambda MTE-THOMPSON - 7810.12.040 - 311<br/>
 Funcionamento: 5V/300ºC<br/>
 <br/>
+
+
+<br/>
+Um motor efetua a combustão da mistura do oxigênio com o combustível para seu funcionamento.<br/>
+Caso a mistura possua mais oxigênio do que combustível, é dito que a mistura é pobre, e caso<br/>
+contrário, é dito que a mistura é rica. E para a regular a quantidade de combustível para queima,<br/>
+os motores com injeção eletrônica possuem um módulo conectado a dois componentes:<br/>
+- Bico injetor;<br/>
+- Sonda lambda;<br/>
+<br/>
+O bico injetor é a peça responsável por injetar combustível à mistura.<br/>
+A sonda lambda é um sensor que mede a quantidade de oxigênio disponível no ar,<br/>
+indicando ao módulo da injeção se a mistura é pobre ou rica.<br/>
+O sensor é acoplado no coletor do escapamento para analisar a quantidade de O2 no ar.<br/>
+Para a sonda lambda de 1 fio, caso a leitura indique uma tensão próxima de 1.0V,<br/>
+é dado que a mistura é rica e para indicações próximas de 0.0V, a mistura é pobre.<br/>
+<br/>
+Em suma:<br/>
+- Mistura rica  = pouco O2 e mais combustível  | 1.0V
+- Mistura pobre = muito O2 e menos combustível | 0.0V
