@@ -63,7 +63,6 @@ Resultado dos testes:<br/>
 [testeResultado](PrototipoSonda/resultadosTeste.png)
 <br/>
 Desmontamos a serra eletrica, para localizar um ponto de facil inserção da sonda. Tiramos as medidas da sonda para furar o ponto de entrada.<br/>
-[testeResultado](PrototipoSonda/resultadosTeste.png)
 <br/>
 
 ### Proximos Passos:
