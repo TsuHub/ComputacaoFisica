@@ -1,4 +1,4 @@
-## Semana do dia 19
+## Semana do dia 19 de setembro
 <br/>
 Para a compreensão do funcionamento da Sonda Lambda foram estudados os seguintes materiais:
 http://www.ngkntk.com.br/manual/pdf/sonda.pdf<br/>
@@ -49,3 +49,27 @@ https://forum.arduino.cc/t/reading-an-oxygen-sensor/247652<br/>
 https://mundoprojetado.com.br/lendo-valor-analogico-c-o-arduino/<br/>
 https://mundoprojetado.com.br/voltimetro-amperimetro-e-ohmimetro-c-arduino/<br/>
 
+===========================================================================================
+## Semana do dia 19 de outubro
+<br/>
+Montagem do prototipo para teste da sonda, com utilização de um maçarico à gás.
+<br/>
+Aquicição do bico de injeção<br/>
+<br/>
+Realização do teste de voltagem com adição de calor com o maçarico. Ao realizar o teste notamos uma flutuação de tensão na sonda de 3.0V a 3.8V. Uma vez que precisavamos da tensão entre 0 e 1, resolvemos o problema aterrando ela. Durante os testes o aterramento foi realizado no proprio alicate. <br/>
+[testeSendoRealizado](./PrototipoSonda/realizandoTeste.jpg)
+<br/>
+Resultado dos testes:<br/>
+[testeResultado](PrototipoSonda/resultadosTeste.png)
+<br/>
+Desmontamos a serra eletrica, para localizar um ponto de facil inserção da sonda. Tiramos as medidas da sonda para furar o ponto de entrada.<br/>
+[testeResultado](PrototipoSonda/resultadosTeste.png)
+<br/>
+
+### Proximos Passos:
+
+Realizar o furo do ponto de entrada na carcaça da serra eletrica.
+Descobrir como fazer com que o bico de injeção funcione.
+Instalar a sonda no escapamento.
+Instalar o bico de injeção.
+Instalar o circuito.
