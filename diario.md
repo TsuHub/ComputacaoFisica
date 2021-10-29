@@ -72,3 +72,17 @@ Descobrir como fazer com que o bico de injeção funcione.
 Instalar a sonda no escapamento.
 Instalar o bico de injeção.
 Instalar o circuito.
+
+===========================================================================================
+## Semana do dia 24 de outubro
+<br/>
+Montagem do prototipo para teste da sonda, com utilização de um maçarico à gás.
+<br/>
+
+Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
+1. Precisamos de uma porca que caiba na sonda (possivelmente encontrado em materiais de construções);<br/>
+2. Precisamos fazer uma solda no coletor (estamos procurando alguém para isso);<br/>
+3. A fonte 12v - 2,5A (já foi adquirido);<br/>
+4. Um relê para fazer controle da injeção do combustível ligado em uma porta digital do arduino;
+5. E tanque para o combustível (estamos pensando em reutilizar uma garrafa pet 2L);
+
