@@ -105,6 +105,6 @@ https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
 
 
 ### Próximos passos:
-- Marcação do tempo que a polia do motor completa um ciclo (de um cilindro de 2 tempos).
+- Marcação do tempo que a polia do motor completa um ciclo (cilindro de 2 tempos).
 - Após a marcação, programar o Arduino fazer o controle da válvula do bico injetor, com a frequência condizente com o tempo marcado do ciclo completo do cilindro.
 - A injeção deve ocorrer no movimento de subida do pistão.
