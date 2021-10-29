@@ -131,3 +131,7 @@ https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
 <br/>
 ![alt text](https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/243/h-bridge-driver-for-two-phase-bipolar-stepper-motor.gif)
 ![alt text](https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/243/LED%20PWM.gif)
+<br/>
+<br/>
+##### Modelo base de estudo do funcionamento do driver com o Arduino
+![alt text](https://www.robocore.net/upload/tutoriais/243_img_2_H.png?167)
