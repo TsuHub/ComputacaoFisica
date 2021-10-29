@@ -76,7 +76,6 @@ Montagem do prototipo para teste da sonda, com utilização de um maçarico à g
 
 ===========================================================================================
 ## Semana do dia 24 de outubro
-<br/>
 ### Próximos passos (I)
 Tiradas as medidas das peças, uma lista dos próximos passos (I) foi criada:<br/>
 1. Precisamos de uma porca que caiba na sonda (possivelmente encontrado em materiais de construções);<br/>
