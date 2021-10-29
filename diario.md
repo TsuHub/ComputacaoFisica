@@ -109,3 +109,18 @@ https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
 - Após a marcação, programar o Arduino fazer o controle da válvula do bico injetor, com a frequência condizente com o tempo marcado do ciclo completo do cilindro.
 - A injeção do combustível deve ocorrer no movimento de subida do pistão.
 
+### Plano para a marcação de um ciclo:
+- Adquirir um sensor magnético:<br/>
+https://produto.mercadolivre.com.br/MLB-1022586325-sensor-magnetico-de-abertura-de-embutir-branco-_JM?matt_tool=56291529&matt_word=&matt_source=google&matt_campaign_id=14303413604&matt_ad_group_id=125984287157&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956218&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=117393665&matt_product_id=MLB1022586325&matt_product_partition_id=1404886571258&matt_target_id=pla-1404886571258&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLXrdXmHFkQWvxThCT8aOcZUTvr7ws8Gl91TCga-obrXhDcFcxN24kaAmbWEALw_wcB
+<br/>
+Cabo com 20cm de cabo;<br/>
+Potência máxima de operação de 10W;<br/>
+Funcionamento com até 5cm de distância;<br/>
+
+- Acoplar um imã na polia (ou corrente do motor da serra)
+
+### Funcionamento do sensor
+Ao se aproximar um imã ao sensor (de contato aberto), um pino interno fecha o circuito, permitindo a passagem de corrente.
+
+### Plano para sincronização da válvula com o cilindro
+Ao detectarmos corrente, faremos a leitura e mandaremos o Arduino acionar a válvula do bico injetor.
