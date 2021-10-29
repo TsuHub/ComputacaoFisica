@@ -92,3 +92,11 @@ Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 Precisamos verificar as especificações do relê;<br/>
 Verificar a amperagem para o funcionamento da bomba;<br/>
 
+#### Links das peças
+Fonte 12v:<br/>
+https://produto.mercadolivre.com.br/MLB-855039747-fonte-12v-1a-bivolt-100v-240v-dc-plug-p4-arduino-_JM?matt_tool=56291529&matt_word=&matt_source=google&matt_campaign_id=14303413604&matt_ad_group_id=125984287397&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956227&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=213006982&matt_product_id=MLB855039747&matt_product_partition_id=1402345268347&matt_target_id=pla-1402345268347&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcJC9-URQ-hoWfXkxsMUCPL0eDvpCP2cBcWiFD09ruORtuoXJmOG5_8aAv3gEALw_wcB
+
+<br/>
+Bomba de combustível Palio Fire Evo E-torq Flex Mm145:<br/>
+https://produto.mercadolivre.com.br/MLB-976686984-bomba-de-combustivel-palio-fire-evo-e-torq-flex-mm145-_JM?matt_tool=30498494&matt_word=&matt_source=google&matt_campaign_id=14303357453&matt_ad_group_id=128472474360&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354515806&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=120779647&matt_product_id=MLB976686984&matt_product_partition_id=1405367288383&matt_target_id=pla-1405367288383&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcJE0poeY1IFWQB5M2S93VsWHumscEbivuQXME_nCZBjYd13hBTqK3saAvn3EALw_wcB
+
