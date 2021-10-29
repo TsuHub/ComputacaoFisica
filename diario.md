@@ -84,5 +84,13 @@ Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 2. Precisamos fazer uma solda no coletor (estamos procurando alguém para isso);<br/>
 3. A fonte 12v - 2,5A (já foi adquirido);<br/>
 4. Um relê para fazer controle da injeção do combustível ligado em uma porta digital do arduino;
-5. E tanque para o combustível (estamos pensando em reutilizar uma garrafa pet 2L);
-6. Por fim, o grupo irá se encontrar para montar tudo;
+5. Tanque para o combustível (estamos pensando em reutilizar uma garrafa pet 2L);
+6. Bomba de combustível para o bico;
+7. Por fim, o grupo irá se encontrar para montar tudo;
+
+<br/>
+###Questões levantadas
+<br/>
+Precisamos verificar as especificações do relê;<br/>
+Verificar a amperagem para o funcionamento da bomba;<br/>
+
