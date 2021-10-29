@@ -98,3 +98,7 @@ https://produto.mercadolivre.com.br/MLB-855039747-fonte-12v-1a-bivolt-100v-240v-
 Bomba de combustível Palio Fire Evo E-torq Flex Mm145:<br/>
 https://produto.mercadolivre.com.br/MLB-976686984-bomba-de-combustivel-palio-fire-evo-e-torq-flex-mm145-_JM?matt_tool=30498494&matt_word=&matt_source=google&matt_campaign_id=14303357453&matt_ad_group_id=128472474360&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354515806&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=120779647&matt_product_id=MLB976686984&matt_product_partition_id=1405367288383&matt_target_id=pla-1405367288383&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcJE0poeY1IFWQB5M2S93VsWHumscEbivuQXME_nCZBjYd13hBTqK3saAvn3EALw_wcB
 
+
+### Material de estudo
+Compreendendo o funcionamento do Driver de Motor L298 com duas pontes H
+https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
