@@ -88,7 +88,6 @@ Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 6. Bomba de combustível para o bico;
 7. Por fim, o grupo irá se encontrar para montar tudo;
 
-<br/>
 ### Questões levantadas
 <br/>
 Precisamos verificar as especificações do relê;<br/>
