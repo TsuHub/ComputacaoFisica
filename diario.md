@@ -77,7 +77,7 @@ Montagem do prototipo para teste da sonda, com utilização de um maçarico à g
 ===========================================================================================
 ## Semana do dia 24 de outubro
 <br/>
-Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
+Tiradas as medidas das peças, uma lista dos próximos passos (I) foi criada:<br/>
 1. Precisamos de uma porca que caiba na sonda (possivelmente encontrado em materiais de construções);<br/>
 2. Precisamos fazer uma solda no coletor (estamos procurando alguém para isso);<br/>
 3. A fonte 12v - 2,5A (já foi adquirido);<br/>
@@ -104,7 +104,7 @@ Compreendendo o funcionamento do Driver de Motor L298 com duas pontes H para sab
 https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
 
 
-### Próximos passos:
+### Próximos passos (II):
 - Marcação do tempo que a polia do motor completa um ciclo (cilindro de 2 tempos).
 - Após a marcação, programar o Arduino fazer o controle da válvula do bico injetor, com a frequência condizente com o tempo marcado do ciclo completo do cilindro.
 - A injeção do combustível deve ocorrer no movimento de subida do pistão.
