@@ -25,7 +25,6 @@ Para o projeto estamos trabalhando com um motor de dois tempos:<br/>
 (ii) A vela acende uma faísca, gerando explosão e consequentemente, movendo o pistão para baixo;<br/>
 <br/>
 Os processos descritos acima configuram 1 ciclo de um motor de dois tempos.<br/>
-<br/>
 
 ### Desafios
 O bico injetor precisa injetar combustível quando o cilindro está em seu estado normal.<br/>
