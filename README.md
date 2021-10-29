@@ -22,7 +22,7 @@ https://github.com/TsuHub/ComputacaoFisica/blob/main/Arduino/Monitoramento%20da%
 O projeto consiste na automatização da injeção de combustível no motor.<br/>
 Para o projeto estamos trabalhando com um motor de dois tempos:<br/>
 (i)  Pistão do cilindro em sua posição normal, recebe combustível e oxigênio;<br/>
-(ii) A vela acende uma faísca, gerando explosão e consequentemente, movendo o pistão para baixo;<br/>
+(ii) A vela acende uma faísca, gerando explosão e consequentemente movendo o pistão para baixo;<br/>
 <br/>
 Os processos descritos acima configuram 1 ciclo de um motor de dois tempos.<br/>
 
