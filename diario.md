@@ -89,7 +89,6 @@ Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 7. Por fim, o grupo irá se encontrar para montar tudo;
 
 ### Questões levantadas
-<br/>
 Precisamos verificar as especificações do relê;<br/>
 Verificar a amperagem para o funcionamento da bomba;<br/>
 
