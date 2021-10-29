@@ -72,12 +72,11 @@ Descobrir como fazer com que o bico de injeção funcione.
 Instalar a sonda no escapamento.
 Instalar o bico de injeção.
 Instalar o circuito.
-
-===========================================================================================
-## Semana do dia 24 de outubro
-<br/>
 Montagem do prototipo para teste da sonda, com utilização de um maçarico à gás.
 <br/>
+===========================================================================================
+## Semana do dia 24 de outubro
+
 
 Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 1. Precisamos de uma porca que caiba na sonda (possivelmente encontrado em materiais de construções);<br/>
