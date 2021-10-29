@@ -119,7 +119,7 @@ Potência máxima de operação de 10W;<br/>
 Funcionamento com até 5cm de distância;<br/>
 
 ### Funcionamento do sensor
-Ao se aproximar um imã ao sensor (de contato aberto), um pino interno fecha o circuito, permitindo a passagem de corrente.
+Ao se aproximar um imã ao sensor (de contato aberto), um pino interno fecha o circuito permitindo a passagem de corrente.
 
 ### Plano para sincronização da válvula com o cilindro
 Ao detectarmos corrente, faremos a leitura e mandaremos o Arduino acionar a válvula do bico injetor.
