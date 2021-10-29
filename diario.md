@@ -85,4 +85,4 @@ Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 3. A fonte 12v - 2,5A (já foi adquirido);<br/>
 4. Um relê para fazer controle da injeção do combustível ligado em uma porta digital do arduino;
 5. E tanque para o combustível (estamos pensando em reutilizar uma garrafa pet 2L);
-
+6. Por fim, o grupo irá se encontrar para montar;
