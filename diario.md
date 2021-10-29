@@ -100,5 +100,5 @@ https://produto.mercadolivre.com.br/MLB-976686984-bomba-de-combustivel-palio-fir
 
 
 ### Material de estudo
-Compreendendo o funcionamento do Driver de Motor L298 com duas pontes H
+Compreendendo o funcionamento do Driver de Motor L298 com duas pontes H<br/>
 https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
