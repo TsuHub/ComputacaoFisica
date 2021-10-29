@@ -123,3 +123,5 @@ Ao se aproximar um imã ao sensor (de contato aberto), um pino interno fecha o c
 
 ### Plano para sincronização da válvula com o cilindro
 Ao detectarmos corrente, faremos a leitura e mandaremos o Arduino acionar a válvula do bico injetor.
+
+![alt text](https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/243/LED%20PWM.gif)
