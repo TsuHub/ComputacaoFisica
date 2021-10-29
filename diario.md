@@ -67,17 +67,16 @@ Desmontamos a serra eletrica, para localizar um ponto de facil inserção da son
 
 ### Proximos Passos:
 
-Realizar o furo do ponto de entrada na carcaça da serra eletrica.
-Descobrir como fazer com que o bico de injeção funcione.
-Instalar a sonda no escapamento.
-Instalar o bico de injeção.
-Instalar o circuito.
-Montagem do prototipo para teste da sonda, com utilização de um maçarico à gás.
-<br/>
+Realizar o furo do ponto de entrada na carcaça da serra eletrica.<br/>
+Descobrir como fazer com que o bico de injeção funcione.<br/>
+Instalar a sonda no escapamento.<br/>
+Instalar o bico de injeção.<br/>
+Instalar o circuito.<br/>
+Montagem do prototipo para teste da sonda, com utilização de um maçarico à gás.<br/>
+
 ===========================================================================================
 ## Semana do dia 24 de outubro
-
-
+<br/>
 Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 1. Precisamos de uma porca que caiba na sonda (possivelmente encontrado em materiais de construções);<br/>
 2. Precisamos fazer uma solda no coletor (estamos procurando alguém para isso);<br/>
