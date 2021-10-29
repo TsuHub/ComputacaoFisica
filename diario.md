@@ -81,10 +81,10 @@ Tiradas as medidas das peças, uma lista dos próximos passos foi criada:<br/>
 1. Precisamos de uma porca que caiba na sonda (possivelmente encontrado em materiais de construções);<br/>
 2. Precisamos fazer uma solda no coletor (estamos procurando alguém para isso);<br/>
 3. A fonte 12v - 2,5A (já foi adquirido);<br/>
-4. Um relê para fazer controle da injeção do combustível ligado em uma porta digital do arduino;
-5. Tanque para o combustível (estamos pensando em reutilizar uma garrafa pet 2L);
-6. Bomba de combustível para o bico;
-7. Por fim, o grupo irá se encontrar para montar tudo;
+4. Um relê para fazer controle da injeção do combustível ligado em uma porta digital do arduino;<br/>
+5. Tanque para o combustível (estamos pensando em reutilizar uma garrafa pet 2L);<br/>
+6. Bomba de combustível para o bico;<br/>
+7. Por fim, o grupo irá se encontrar para montar tudo;<br/>
 
 ### Questões levantadas
 Precisamos verificar as especificações do relê;<br/>
