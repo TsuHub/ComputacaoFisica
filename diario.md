@@ -135,3 +135,10 @@ https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
 <br/>
 ##### Modelo base de estudo do funcionamento do driver com o Arduino
 ![alt text](https://www.robocore.net/upload/tutoriais/243_img_2_H.png?167)
+
+===========================================================================================
+## Semana do dia 12 de Novembro
+O sensor magnetico chegou na terça
+
+Não encontramos ninguem para fazer a solda, estamos considerando fazer nós mesmos, logo estamos atrás de inversor e eletrodo. Estamos considerando os modelos TIG e MIG, que são os melhores mas por outro lado dá mais trabalho
+
