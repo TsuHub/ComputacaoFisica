@@ -142,3 +142,41 @@ O sensor magnetico chegou na terça
 
 Não encontramos ninguem para fazer a solda, estamos considerando fazer nós mesmos, logo estamos atrás de inversor e eletrodo. Estamos considerando os modelos TIG e MIG, que são os melhores mas por outro lado dá mais trabalho
 
+
+
+
+==========================================================================================
+
+### ESPECIFICAÇÕES DO SENSOR:
+
+Características principais
+Marca    EXTARTE IMP
+Modelo    SENSOR DE EMBUTIR
+Outras características
+Voltagem de alimentação: 0V
+Corrente de saída: 0 A
+Tipo de saída: SENSOR
+Distância de detecção: 50 mm
+Materiais detectáveis: ALARME,PROTÃO,CERCA,AUTOMAÇÕES,USO GERAL
+
+
+Descrição
+
+O Sensor Magnético de Embutir é composto por duas partes, o sensor e o imã, conforme foto acima.
+
+TIPO DE CONTATO
+
+Contato do tipo N.A. (Normalmente Aberto)
+
+Ao se aproximar do imã, o sensor magnético será acionado e seu contato fechará, permitindo a passagem de corrente elétrica.
+
+### CARACTERÍSTICAS TÉCNICAS:
+
+O encapsulamento do sensor e do imã são do mesmo tamanho para este modelo de sensor.
+Comprimento do cabo: 20 cm.
+Diâmetro do tubo: Verifique a foto
+Potência máxima de operação: 10W (VA).
+Corrente máxima de chaveamento: 1A
+Resistência de contato (inicial): 100m Ohms
+
+ATENÇÃO: A aplicação de carga elétrica superior à carga limite do sensor acarretará em queima do mesmo, 'colando' o contato do sensor. Em diversas aplicações, o circuito possui um pico de energia no momento do acionamento, sendo necessário prever essa situação para não causar dano ao sensor.
