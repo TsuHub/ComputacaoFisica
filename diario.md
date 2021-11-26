@@ -179,4 +179,4 @@ Potência máxima de operação: 10W (VA).
 Corrente máxima de chaveamento: 1A
 Resistência de contato (inicial): 100m Ohms
 
-ATENÇÃO: A aplicação de carga elétrica superior à carga limite do sensor acarretará em queima do mesmo, 'colando' o contato do sensor. Em diversas aplicações, o circuito possui um pico de energia no momento do acionamento, sendo necessário prever essa situação para não causar dano ao sensor.
+IMPORTANTE: A aplicação de carga elétrica superior à carga limite do sensor acarretará em queima do mesmo, 'colando' o contato do sensor. Em diversas aplicações, o circuito possui um pico de energia no momento do acionamento, sendo necessário prever essa situação para não causar dano ao sensor.
