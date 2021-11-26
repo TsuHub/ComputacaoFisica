@@ -180,3 +180,22 @@ Corrente máxima de chaveamento: 1A
 Resistência de contato (inicial): 100m Ohms
 
 IMPORTANTE: A aplicação de carga elétrica superior à carga limite do sensor acarretará em queima do mesmo, 'colando' o contato do sensor. Em diversas aplicações, o circuito possui um pico de energia no momento do acionamento, sendo necessário prever essa situação para não causar dano ao sensor.
+
+===========================================================================================
+## Semanas dos dias 19 e 26 de Novembro
+A montagem da sonda no coletor de escape foi simples, mas trabalhosa. Compramos uma porca própria para montagem de sonda lambda e fizemos um furo na parte de trás do coletor (com a ajuda de uma furadeira sem fio, uma lima rotativa e muito WD-40). 
+Para nossa surpresa (nada positiva) a ponta de leitura da sonda acabou ficando escondida dentro da porca e da parede do coletor, e afastada do fluxo dos gases de escape. Tivemos que cortar alguns centímetros da porca para dar espaço. A falta de uma morsa e de uma esmerilhadeira foram um desafio que tivemos que superar através de uma série de adaptações: prendemos a porca em um alicate de pressão e usamos uma micro-retífica com um disco de corte para fazer o trabalho.Acabamos com 8 discos de corte (7 deles (de qualidade inferior) quebraram no meio do processo) e não conseguimos terminar o corte da porca antes de os discos de corte acabarem (dica: não economizem nos discos de corte). Acabamos finalizando o corte com um arco de serra e muito WD-40.
+A solda da porca no coletor foi feita pelo pessoal da manutenção na EACH, fomos muito bem-atendidos e o processo levou poucos minutos.
+
+Concluímos a modelagem da primeira versão do coletor novo de admissão. Decidimos por usar a válvula de borboleta original do carburador por um conjunto de motivos:
+
+* Projetar uma válvula de borboleta para colocar no coletor impresso não seria fácil
+* Montar um coletor em PLA diretamente no bloco do motor poderia derreter o coletor
+* A válvula de borboleta original já possui um acionador conveniente na empunhadura da serra
+
+Partindo dessas condições, nossa ideia é travar o afogador na posição completamente aberta, remover todo o combustível da motosserra e montar o novo coletor entre o carburador (que basicamente vai servir somente como corpo de borboleta por praticidade) e o filtro de ar (ou não usar o filtro de ar e rodar o motor sem, não deve fazer muita diferença).
+
+Estamos agora aguardando a chegada da bomba de combustível e do driver L298n
+### Próximos passos
+
+Reunir o grupo para finalizar a montagem assim que as peças chegarem
