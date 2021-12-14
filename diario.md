@@ -67,8 +67,135 @@ Desmontamos a serra eletrica, para localizar um ponto de facil inserção da son
 
 ### Proximos Passos:
 
-Realizar o furo do ponto de entrada na carcaça da serra eletrica.
-Descobrir como fazer com que o bico de injeção funcione.
-Instalar a sonda no escapamento.
-Instalar o bico de injeção.
-Instalar o circuito.
+Realizar o furo do ponto de entrada na carcaça da serra eletrica.<br/>
+Descobrir como fazer com que o bico de injeção funcione.<br/>
+Instalar a sonda no escapamento.<br/>
+Instalar o bico de injeção.<br/>
+Instalar o circuito.<br/>
+Montagem do prototipo para teste da sonda, com utilização de um maçarico à gás.<br/>
+
+===========================================================================================
+## Semana do dia 24 de outubro
+### Próximos passos (I)
+Tiradas as medidas das peças, uma lista dos próximos passos (I) foi criada:<br/>
+1. Precisamos de uma porca que caiba na sonda (possivelmente encontrado em materiais de construções);<br/>
+2. Precisamos fazer uma solda no coletor (estamos procurando alguém para isso);<br/>
+3. A fonte 12v - 2,5A (já foi adquirido);<br/>
+4. Um relê para fazer controle da injeção do combustível ligado em uma porta digital do arduino;<br/>
+5. Tanque para o combustível (estamos pensando em utilizar uma garrafa pet 2L);<br/>
+6. Bomba de combustível para o bico;<br/>
+7. Por fim, o grupo irá se encontrar para montar tudo;<br/>
+
+### Questões levantadas
+Precisamos verificar as especificações do relê;<br/>
+Verificar a amperagem para o funcionamento da bomba;<br/>
+
+#### Links das peças
+Fonte 12v:<br/>
+https://produto.mercadolivre.com.br/MLB-855039747-fonte-12v-1a-bivolt-100v-240v-dc-plug-p4-arduino-_JM?matt_tool=56291529&matt_word=&matt_source=google&matt_campaign_id=14303413604&matt_ad_group_id=125984287397&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956227&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=213006982&matt_product_id=MLB855039747&matt_product_partition_id=1402345268347&matt_target_id=pla-1402345268347&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcJC9-URQ-hoWfXkxsMUCPL0eDvpCP2cBcWiFD09ruORtuoXJmOG5_8aAv3gEALw_wcB
+
+<br/>
+Bomba de combustível Palio Fire Evo E-torq Flex Mm145:<br/>
+https://produto.mercadolivre.com.br/MLB-976686984-bomba-de-combustivel-palio-fire-evo-e-torq-flex-mm145-_JM?matt_tool=30498494&matt_word=&matt_source=google&matt_campaign_id=14303357453&matt_ad_group_id=128472474360&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354515806&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=120779647&matt_product_id=MLB976686984&matt_product_partition_id=1405367288383&matt_target_id=pla-1405367288383&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcJE0poeY1IFWQB5M2S93VsWHumscEbivuQXME_nCZBjYd13hBTqK3saAvn3EALw_wcB
+
+
+### Próximos passos (II):
+- Marcação do tempo que a polia do motor completa um ciclo (cilindro de 2 tempos).
+- Após a marcação, programar o Arduino fazer o controle da válvula do bico injetor, com a frequência condizente com o tempo marcado do ciclo completo do cilindro.
+- A injeção do combustível deve ocorrer no movimento de subida do pistão.
+
+### Plano para a marcação de um ciclo:
+- Acoplar um imã na polia (ou corrente do motor da serra)<br/>
+- Adquirir um sensor magnético:<br/>
+https://produto.mercadolivre.com.br/MLB-1022586325-sensor-magnetico-de-abertura-de-embutir-branco-_JM?matt_tool=56291529&matt_word=&matt_source=google&matt_campaign_id=14303413604&matt_ad_group_id=125984287157&matt_match_type=&matt_network=g&matt_device=c&matt_creative=539354956218&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=117393665&matt_product_id=MLB1022586325&matt_product_partition_id=1404886571258&matt_target_id=pla-1404886571258&gclid=Cj0KCQjwt-6LBhDlARIsAIPRQcLXrdXmHFkQWvxThCT8aOcZUTvr7ws8Gl91TCga-obrXhDcFcxN24kaAmbWEALw_wcB
+<br/>
+Cabo com 20cm de cabo;<br/>
+Potência máxima de operação de 10W;<br/>
+Funcionamento com até 5cm de distância;<br/>
+
+### Funcionamento do sensor
+Ao se aproximar um imã ao sensor (de contato aberto), um pino interno fecha o circuito permitindo a passagem de corrente.
+
+### Plano para sincronização da válvula com o cilindro
+#### Abordagem 1
+Ao detectarmos corrente, faremos a leitura e mandaremos o Arduino acionar a válvula do bico injetor.
+<br/>
+#### Abordagem 2
+
+Uma outra abordagem é utilizar o driver de motor L298 de duas pontes H.
+Este driver consegue trabalhar com a frequência do motor de 7500rpm
+
+##### Material de estudo
+Compreendendo o funcionamento do driver de Motor L298 com duas pontes H para saber como fazer o controle da válvula do bico injetor.<br/>
+https://www.robocore.net/tutoriais/motor-dc-arduino-ponte-h-l298n
+<br/>
+![alt text](https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/243/h-bridge-driver-for-two-phase-bipolar-stepper-motor.gif)
+![alt text](https://s3-sa-east-1.amazonaws.com/robocore-tutoriais/243/LED%20PWM.gif)
+<br/>
+<br/>
+##### Modelo base de estudo do funcionamento do driver com o Arduino
+![alt text](https://www.robocore.net/upload/tutoriais/243_img_2_H.png?167)
+
+===========================================================================================
+## Semana do dia 12 de Novembro
+O sensor magnetico chegou na terça
+
+Não encontramos ninguem para fazer a solda, estamos considerando fazer nós mesmos, logo estamos atrás de inversor e eletrodo. Estamos considerando os modelos TIG e MIG, que são os melhores mas por outro lado dá mais trabalho
+
+
+
+
+==========================================================================================
+
+### ESPECIFICAÇÕES DO SENSOR:
+
+Características principais
+Marca    EXTARTE IMP
+Modelo    SENSOR DE EMBUTIR
+Outras características
+Voltagem de alimentação: 0V
+Corrente de saída: 0 A
+Tipo de saída: SENSOR
+Distância de detecção: 50 mm
+Materiais detectáveis: ALARME,PROTÃO,CERCA,AUTOMAÇÕES,USO GERAL
+
+
+Descrição
+
+O Sensor Magnético de Embutir é composto por duas partes, o sensor e o imã, conforme foto acima.
+
+TIPO DE CONTATO
+
+Contato do tipo N.A. (Normalmente Aberto)
+
+Ao se aproximar do imã, o sensor magnético será acionado e seu contato fechará, permitindo a passagem de corrente elétrica.
+
+### CARACTERÍSTICAS TÉCNICAS:
+
+O encapsulamento do sensor e do imã são do mesmo tamanho para este modelo de sensor.
+Comprimento do cabo: 20 cm.
+Diâmetro do tubo: Verifique a foto
+Potência máxima de operação: 10W (VA).
+Corrente máxima de chaveamento: 1A
+Resistência de contato (inicial): 100m Ohms
+
+IMPORTANTE: A aplicação de carga elétrica superior à carga limite do sensor acarretará em queima do mesmo, 'colando' o contato do sensor. Em diversas aplicações, o circuito possui um pico de energia no momento do acionamento, sendo necessário prever essa situação para não causar dano ao sensor.
+
+===========================================================================================
+## Semanas dos dias 19 e 26 de Novembro
+A montagem da sonda no coletor de escape foi simples, mas trabalhosa. Compramos uma porca própria para montagem de sonda lambda e fizemos um furo na parte de trás do coletor (com a ajuda de uma furadeira sem fio, uma lima rotativa e muito WD-40). 
+Para nossa surpresa (nada positiva) a ponta de leitura da sonda acabou ficando escondida dentro da porca e da parede do coletor, e afastada do fluxo dos gases de escape. Tivemos que cortar alguns centímetros da porca para dar espaço. A falta de uma morsa e de uma esmerilhadeira foram um desafio que tivemos que superar através de uma série de adaptações: prendemos a porca em um alicate de pressão e usamos uma micro-retífica com um disco de corte para fazer o trabalho.Acabamos com 8 discos de corte (7 deles (de qualidade inferior) quebraram no meio do processo) e não conseguimos terminar o corte da porca antes de os discos de corte acabarem (dica: não economizem nos discos de corte). Acabamos finalizando o corte com um arco de serra e muito WD-40.
+A solda da porca no coletor foi feita pelo pessoal da manutenção na EACH, fomos muito bem-atendidos e o processo levou poucos minutos.
+
+Concluímos a modelagem da primeira versão do coletor novo de admissão. Decidimos por usar a válvula de borboleta original do carburador por um conjunto de motivos:
+
+* Projetar uma válvula de borboleta para colocar no coletor impresso não seria fácil
+* Montar um coletor em PLA diretamente no bloco do motor poderia derreter o coletor
+* A válvula de borboleta original já possui um acionador conveniente na empunhadura da serra
+
+Partindo dessas condições, nossa ideia é travar o afogador na posição completamente aberta, remover todo o combustível da motosserra e montar o novo coletor entre o carburador (que basicamente vai servir somente como corpo de borboleta por praticidade) e o filtro de ar (ou não usar o filtro de ar e rodar o motor sem, não deve fazer muita diferença).
+
+Estamos agora aguardando a chegada da bomba de combustível e do driver L298n
+### Próximos passos
+
+Reunir o grupo para finalizar a montagem assim que as peças chegarem
