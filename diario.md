@@ -185,7 +185,7 @@ IMPORTANTE: A aplicação de carga elétrica superior à carga limite do sensor 
 ## Semanas dos dias 19 e 26 de Novembro
 A montagem da sonda no coletor de escape foi simples, mas trabalhosa. Compramos uma porca própria para montagem de sonda lambda e fizemos um furo na parte de trás do coletor (com a ajuda de uma furadeira sem fio, uma lima rotativa e muito WD-40). 
 Para nossa surpresa (nada positiva) a ponta de leitura da sonda acabou ficando escondida dentro da porca e da parede do coletor, e afastada do fluxo dos gases de escape. Tivemos que cortar alguns centímetros da porca para dar espaço. A falta de uma morsa e de uma esmerilhadeira foram um desafio que tivemos que superar através de uma série de adaptações: prendemos a porca em um alicate de pressão e usamos uma micro-retífica com um disco de corte para fazer o trabalho.Acabamos com 8 discos de corte (7 deles (de qualidade inferior) quebraram no meio do processo) e não conseguimos terminar o corte da porca antes de os discos de corte acabarem (dica: não economizem nos discos de corte). Acabamos finalizando o corte com um arco de serra e muito WD-40.
-A solda da porca no coletor foi feita pelo pessoal da manutenção na EACH, fomos muito bem-atendidos e o processo levou poucos minutos.
+A solda da porca no coletor foi feita pelo pessoal da manutenção na EACH, fomos muito bem-atendidos e o processo levou poucos minutos*.
 
 Concluímos a modelagem da primeira versão do coletor novo de admissão. Decidimos por usar a válvula de borboleta original do carburador por um conjunto de motivos:
 
@@ -199,3 +199,14 @@ Estamos agora aguardando a chegada da bomba de combustível e do driver L298n
 ### Próximos passos
 
 Reunir o grupo para finalizar a montagem assim que as peças chegarem
+
+* Créditos: Agradecemos à equipe de manutenção da EACH e ao professor Nakano por ter intermediado o contato.
+
+===========================================================================================
+## Semanas dos dias 29 de Novembro e 03 de Dezembro
+
+Montamos as partes possíveis de serem montadas (cada um nas suas respectivas casas) e reunimos as peças e as partes.
+
+### As peças:
+
+![SensorMagnetico](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png)
