@@ -247,4 +247,4 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 <br/>
 
 ### Próximos passos
-Reunir o grupo novamente para fazer o teste da bomba de combustível, acoplar o sensor magnético ao motor para a sincronia da válvula do bico injetor com o motor de 2 tempos.
+Reunir o grupo novamente para fazer o teste da bomba de combustível e acoplar o sensor magnético ao motor para a sincronia da válvula do bico injetor com o motor de 2 tempos.
