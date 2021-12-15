@@ -230,6 +230,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 <p align="center">
   <img width="300" height="400" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V%20-%202A.png">
+  <br/>
   <b>(Imagem meramente ilustrativa: Fonte 12V - 2A)</b><br>
 </p>
 <br/>
@@ -248,6 +249,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 <p align="center">
   <img width="300" height="400" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Galão%20Metálico%2020L.png">
+  <br/>
   <b>(Imagem meramente ilustrativa: Galão metálico 20L)</b><br>
 </p>
 <br/>
