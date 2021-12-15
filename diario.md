@@ -225,7 +225,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 ### As peças:
 
 ![Arduino|Driver|Bomba|SensorMagnetico](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png)
-(Arduino | Driver L298n de duas pontes H | Bomba | Sensor magnético)<br/>
+(Arduino | Driver L298n de duas pontes H | Bomba de combustível | Sensor magnético)<br/>
 <br/>
 ![Fonte12V_2A](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V%20-%202A.png)
 (Imagem meramente ilustrativa: Fonte 12V - 2A)<br/>
