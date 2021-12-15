@@ -205,12 +205,18 @@ Reunir o grupo para finalizar a montagem assim que as peças chegarem
 ===========================================================================================
 ## Semanas dos dias 29 de Novembro e 03 de Dezembro
 
-Montamos as partes possíveis de serem montadas (cada um nas suas respectivas casas) e reunimos as peças e as partes.
+Implementamos o código controlador do driver L298n no Arduino, fizemos o deploy e montamos os circuitos.<br/>
+O Driver é divido em duas partes controladoras, lados 'A' e 'B' (além dos pinos de alimentação de 12V e de aterramento GND).
+Cada um dos lados são responsáveis por fazer o controle de algum 
+
 
 ### As peças:
 
 ![Arduino|Driver|Bomba|SensorMagnetico](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png)
 (Arduino | Driver L298n de duas pontes H | Bomba | Sensor magnético)<br/>
+<br/>
+![Fonte12V](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png)
+(Fonte 12V)<br/>
 <br/>
 ![Fonte12V](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png)
 (Fonte 12V)<br/>
