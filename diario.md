@@ -209,4 +209,14 @@ Montamos as partes possíveis de serem montadas (cada um nas suas respectivas ca
 
 ### As peças:
 
-![SensorMagnetico](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png)
+![Arduino|Driver|Bomba|SensorMagnetico](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png)
+(Arduino | Driver L298n de duas pontes H | Bomba | Sensor magnético)<br/>
+<br/>
+![Fonte12V](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png)
+(Fonte 12V)<br/>
+<br/>
+![MotorCarburado](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Motor%20da%20serra%20elétrica%20(já%20com%20a%20sonda%20soldada).png)
+(Motor carburado da serra elétrica - já com a sonda lambda embutida no coletor)<br/>
+<br/>
+![BicoInjetor|Suporte](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Suporte%20para%20bico%20feito%20na%20impressora%203D%20%2B%20Bico%20injetor.png)
+(Suporte do bico impresso na impressora 3D | Bico injetor)
