@@ -226,7 +226,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 
 <p align="center">
-  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png">
+  <img src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png">
   <br/>
   <b>(Arduino | Driver L298n de duas pontes H | Bomba de combustível | Sensor magnético)</b><br>
 </p>
