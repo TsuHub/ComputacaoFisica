@@ -212,7 +212,7 @@ Implementamos o <a href="https://github.com/TsuHub/ComputacaoFisica/blob/main/Ar
 O Driver é divido em duas partes controladoras, lados 'A' e 'B' (além dos pinos de alimentação de 12V e de aterramento GND).<br/>
 Cada um dos lados é responsável por fazer o controle de algum dispositivo (motor, bico injetor, entre outros).<br/>
 Utilizamos apenas o lado 'A' para fazer a abertura e fechamento da válvula do bico injetor para o controle do fluxo de gasolina com a frequência de 125Hz.<br/>
-O Arduino trabalha com o tempo em milésimos de segundo, portanto, para que 125 aberturas e fechamentos sejam efetuados dentro de 1s, a abertura e fechamento da válvula deve ocorrer a cada 8ms. Para a alimentação do circuito, utilizamos uma fonte de 12V e 2A. Pelos testes feito neste circuito, está ocorrendo tudo bem.<br/>
+O Arduino trabalha com o tempo em milésimos de segundo, portanto, para que 125 aberturas e fechamentos sejam efetuados dentro de 1s, a abertura e fechamento da válvula deve ocorrer a cada 8ms. Para a alimentação do circuito, utilizamos uma fonte de 12V e 2A. Pelos testes que fizemos até agora neste circuito, está tudo ocorrendo bem.<br/>
 <br/>
 Compramos 2L de gasolina e reservamos devidamente em um galão próprio para isto (imagem e especificação logo abaixo).<br/>
 A bomba não pode ser alimentada com uma fonte de 2A, então não conseguimos efetuar os testes com a bomba.<br/>
