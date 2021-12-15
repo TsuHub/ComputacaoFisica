@@ -205,9 +205,12 @@ Reunir o grupo para finalizar a montagem assim que as peças chegarem
 ===========================================================================================
 ## Semanas dos dias 29 de Novembro e 03 de Dezembro
 
-Implementamos o código controlador do driver L298n no Arduino, fizemos o deploy e montamos os circuitos.<br/>
-O Driver é divido em duas partes controladoras, lados 'A' e 'B' (além dos pinos de alimentação de 12V e de aterramento GND).
-Cada um dos lados são responsáveis por fazer o controle de algum 
+Implementamos o <a href=>código</a> controlador do driver L298n no Arduino, fizemos o deploy e montamos os circuitos<br/>
+(Arduino UNO + Driver L298n de duas pontes H + jumpers + Fonte 12V de 2A).<br/>
+O Driver é divido em duas partes controladoras, lados 'A' e 'B' (além dos pinos de alimentação de 12V e de aterramento GND).<br/>
+Cada um dos lados é responsável por fazer o controle de algum dispositivo (motor, bico injetor, entre outros).<br/>
+Utilizamos apenas o lado 'A' para fazer a abertura e fechamento da válvula do bico injetor para o controle do fluxo de gasolina.<br/>
+
 
 
 ### As peças:
@@ -215,8 +218,8 @@ Cada um dos lados são responsáveis por fazer o controle de algum
 ![Arduino|Driver|Bomba|SensorMagnetico](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png)
 (Arduino | Driver L298n de duas pontes H | Bomba | Sensor magnético)<br/>
 <br/>
-![Fonte12V](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png)
-(Fonte 12V)<br/>
+![Fonte12V_2A](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V%20-%202A.png)
+(Fonte 12V - 2A)<br/>
 <br/>
 ![Fonte12V](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png)
 (Fonte 12V)<br/>
