@@ -224,35 +224,54 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 ### As peças:
 
-![Arduino|Driver|Bomba|SensorMagnetico](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png)
-(Arduino | Driver L298n de duas pontes H | Bomba de combustível | Sensor magnético)<br/>
-<br/>
 
 <p align="center">
-  <img width="300" height="400" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V%20-%202A.png">
+  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Arduino%20%2B%20Driver%20L298n%20com%20duas%20pontes%20H%20%2B%20Bomba%20%2B%20Sensor%20magnético.png">
+  <br/>
+  <b>(Arduino | Driver L298n de duas pontes H | Bomba de combustível | Sensor magnético)</b><br>
+</p>
+<br/>
+
+
+<p align="center">
+  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V%20-%202A.png">
   <br/>
   <b>(Imagem meramente ilustrativa: Fonte 12V - 2A)</b><br>
 </p>
 <br/>
 
 
-![Fonte12V](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png)
-(Fonte ATX GP400A 400W Real 80PLUS/PFC/BIVOLT)<br/>
-<br/>
-![MotorCarburado](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Motor%20da%20serra%20elétrica%20(já%20com%20a%20sonda%20soldada).png)
-(Motor Nagano MN 6000 carburado da serra elétrica - capacidade de 500ml de gasolina, já com a sonda lambda embutida no coletor)<br/>
-<br/>
-![BicoInjetor|Suporte](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Suporte%20para%20bico%20feito%20na%20impressora%203D%20%2B%20Bico%20injetor.png)
-(Suporte do bico impresso na impressora 3D | Bico injetor)<br/>
+<p align="center">
+  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png">
+  <br/>
+  <b>(Fonte ATX GP400A 400W Real 80PLUS/PFC/BIVOLT)</b><br>
+</p>
 <br/>
 
 
 <p align="center">
-  <img width="300" height="400" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Galão%20Metálico%2020L.png">
+  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Motor%20da%20serra%20elétrica%20(já%20com%20a%20sonda%20soldada).png">
+  <br/>
+  <b>(Motor Nagano MN 6000 carburado da serra elétrica - capacidade de 500ml de gasolina, já com a sonda lambda embutida no coletor)</b><br>
+</p>
+<br/>
+
+
+<p align="center">
+  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Suporte%20para%20bico%20feito%20na%20impressora%203D%20%2B%20Bico%20injetor.png">
+  <br/>
+  <b>(Suporte do bico impresso na impressora 3D | Bico injetor)</b><br>
+</p>
+<br/>
+
+
+<p align="center">
+  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Galão%20Metálico%2020L.png">
   <br/>
   <b>(Imagem meramente ilustrativa: Galão metálico 20L)</b><br>
 </p>
 <br/>
+
 
 * Estamos cientes que o projeto ainda não terminou, faltam algumas coisas, mas já agradecemos as ajudas do professor Nakano por ter sido muito solícito durante todo o projeto, a equipe de manuntenção da EACH e aos esforços dos integrantes.<br/>
 <br/>
