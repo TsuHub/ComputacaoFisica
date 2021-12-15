@@ -205,11 +205,16 @@ Reunir o grupo para finalizar a montagem assim que as peças chegarem
 ===========================================================================================
 ## Semanas dos dias 29 de Novembro e 03 de Dezembro
 
-Implementamos o <a href=>código</a> controlador do driver L298n no Arduino, fizemos o deploy e montamos os circuitos<br/>
+Implementamos o <a href="https://github.com/TsuHub/ComputacaoFisica/blob/main/Arduino/Controlador%20driver%20L298n%20de%20duas%20pontes%20H/Código/DriverHandler.ino">código</a> controlador do driver L298n no Arduino, fizemos o deploy e montamos os circuitos<br/>
 (Arduino UNO + Driver L298n de duas pontes H + jumpers + Fonte 12V de 2A).<br/>
 O Driver é divido em duas partes controladoras, lados 'A' e 'B' (além dos pinos de alimentação de 12V e de aterramento GND).<br/>
 Cada um dos lados é responsável por fazer o controle de algum dispositivo (motor, bico injetor, entre outros).<br/>
-Utilizamos apenas o lado 'A' para fazer a abertura e fechamento da válvula do bico injetor para o controle do fluxo de gasolina.<br/>
+Utilizamos apenas o lado 'A' para fazer a abertura e fechamento da válvula do bico injetor para o controle do fluxo de gasolina com a frequência de 125Hz.<br/>
+O Arduino trabalha com o tempo em milésimos de segundo, portanto, para que 125 aberturas e fechamentos sejam efetuados dentro de 1s, a abertura e fechamento da válvula deve ocorrer a cada 8ms. Para a alimentação do circuito, utilizamos uma fonte de 12V e 2A. Pelos testes feito neste circuito, está ocorrendo tudo bem.<br/>
+<br/>
+Compramos 2L de gasolina e reservamos em um 
+A bomba não pode ser alimentada com uma fonte de 2A, então não conseguimos efetuar os testes com a bomba.
+Como a bomba necessita de uma amperagem maior, providenciamos recentemente (segue a imagem e a especificação mais abaixo).
 
 
 
@@ -219,13 +224,13 @@ Utilizamos apenas o lado 'A' para fazer a abertura e fechamento da válvula do b
 (Arduino | Driver L298n de duas pontes H | Bomba | Sensor magnético)<br/>
 <br/>
 ![Fonte12V_2A](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V%20-%202A.png)
-(Fonte 12V - 2A)<br/>
+(Imagem ilustrativa: Fonte 12V - 2A)<br/>
 <br/>
 ![Fonte12V](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png)
-(Fonte 12V)<br/>
+(Fonte ATX GP400A 400W Real 80PLUS/PFC/BIVOLT)<br/>
 <br/>
 ![MotorCarburado](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Motor%20da%20serra%20elétrica%20(já%20com%20a%20sonda%20soldada).png)
-(Motor carburado da serra elétrica - já com a sonda lambda embutida no coletor)<br/>
+(Motor Nagano MN 6000 carburado da serra elétrica - capacidade de 500ml de gasolina, já com a sonda lambda embutida no coletor)<br/>
 <br/>
 ![BicoInjetor|Suporte](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Suporte%20para%20bico%20feito%20na%20impressora%203D%20%2B%20Bico%20injetor.png)
 (Suporte do bico impresso na impressora 3D | Bico injetor)
