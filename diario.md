@@ -242,7 +242,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 
 <p align="center">
-  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png">
+  <img src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png">
   <br/>
   <b>(Fonte ATX GP400A 400W Real 80PLUS/PFC/BIVOLT)</b><br>
 </p>
@@ -250,7 +250,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 
 <p align="center">
-  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Motor%20da%20serra%20elétrica%20(já%20com%20a%20sonda%20soldada).png">
+  <img src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Motor%20da%20serra%20elétrica%20(já%20com%20a%20sonda%20soldada).png">
   <br/>
   <b>(Motor Nagano MN 6000 carburado da serra elétrica - capacidade de 500ml de gasolina, já com a sonda lambda embutida no coletor)</b><br>
 </p>
@@ -258,7 +258,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 
 <p align="center">
-  <img width="300" height="350" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Suporte%20para%20bico%20feito%20na%20impressora%203D%20%2B%20Bico%20injetor.png">
+  <img src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Suporte%20para%20bico%20feito%20na%20impressora%203D%20%2B%20Bico%20injetor.png">
   <br/>
   <b>(Suporte do bico impresso na impressora 3D | Bico injetor)</b><br>
 </p>
