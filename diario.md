@@ -217,7 +217,7 @@ O Arduino trabalha com o tempo em milésimos de segundo, portanto, para que 125 
 Compramos 2L de gasolina e reservamos devidamente em um galão próprio para isto (imagem e especificação logo abaixo).<br/>
 A bomba não pode ser alimentada com uma fonte de 2A, então não conseguimos efetuar os testes com a bomba.<br/>
 A boa notícia é que providenciamos uma fonte que consegue atender as nossas necessidades (imagem e especificação logo abaixo).<br/>
-Aparentemente um dos integrantes desmontou a fonte de seu computador*.<br/>
+(um dos integrantes desmontou a fonte de seu computador*)<br/>
 A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a fonte foi providenciada muito recentemente.<br/>
 <br/>
 
