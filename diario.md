@@ -239,7 +239,11 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 ![BicoInjetor|Suporte](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Suporte%20para%20bico%20feito%20na%20impressora%203D%20%2B%20Bico%20injetor.png)
 (Suporte do bico impresso na impressora 3D | Bico injetor)<br/>
 <br/>
-![](https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Galão%20Metálico%2020L.png)
+
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Galão%20Metálico%2020L.png">
+</p>
 (Imagem meramente ilustrativa: Galão metálico 20L)<br/>
 <br/>
 
