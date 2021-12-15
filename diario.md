@@ -245,5 +245,6 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 * Estamos cientes que o projeto ainda não terminou, faltam algumas coisas, mas já agradecemos as ajudas do professor Nakano por ter sido muito solícito durante todo o projeto, a equipe de manuntenção da EACH e aos esforços dos integrantes.<br/>
 <br/>
+
 ### Próximos passos
 Reunir o grupo novamente para fazer o teste da bomba de combustível, acoplar o sensor magnético ao motor para a sincronia da válvula do bico injetor com o motor de 2 tempos.
