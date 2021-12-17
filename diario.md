@@ -244,7 +244,7 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 <p align="center">
   <img src="https://github.com/TsuHub/ComputacaoFisica/blob/main/Imagem%20das%20peças/Fonte%2012V.png">
   <br/>
-  <b>(Fonte ATX GP400A 400W Real 80PLUS/PFC/BIVOLT)</b><br>
+  <b>(Fonte ATX GP400A 400W Real 80PLUS/PFC/BIVOLT - 3A ~ 6A)</b><br>
 </p>
 <br/>
 
