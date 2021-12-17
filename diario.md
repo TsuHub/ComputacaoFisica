@@ -207,7 +207,7 @@ Reunir o grupo para finalizar a montagem assim que as peças chegarem
 
 Tiradas as medidas do bico injetor, foi feita a peça de suporte do bico para acoplar no motor (foi feito mais de 1, por motivos de falhas nos primeiros modelos).<br/>
 <br/>
-Implementamos o <a href="https://github.com/TsuHub/ComputacaoFisica/blob/main/Arduino/Controlador%20driver%20L298n%20de%20duas%20pontes%20H/Código/DriverHandler.ino">código</a> controlador do driver L298n no Arduino, fizemos o deploy e montamos os circuitos<br/>
+Implementamos o <a href="https://github.com/TsuHub/ComputacaoFisica/blob/main/Arduino/Controlador%20driver%20L298n%20de%20duas%20pontes%20H/Código/Ponte_L298n.ino">código</a> controlador do driver L298n no Arduino, fizemos o deploy e montamos os circuitos<br/>
 (Arduino UNO + Driver L298n de duas pontes H + jumpers + Fonte 12V de 2A).<br/>
 O Driver é divido em duas partes controladoras, lados 'A' e 'B' (além dos pinos de alimentação de 12V e de aterramento GND).<br/>
 Cada um dos lados é responsável por fazer o controle de algum dispositivo (motor, bico injetor, entre outros).<br/>
