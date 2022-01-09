@@ -281,6 +281,7 @@ Reunir o grupo novamente para fazer o teste da bomba de combustível e acoplar o
 
 </br>
 ===========================================================================================
+
 ## Semanas dos dias 26 de dezembro e 02 de janeiro
 
 Fomos a loja de materiais de construção e compramos:</br>
