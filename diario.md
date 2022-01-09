@@ -278,3 +278,49 @@ A má notícia é que não fizemos os testes ainda, por conta dos empecilhos, a 
 
 ### Próximos passos
 Reunir o grupo novamente para fazer o teste da bomba de combustível e acoplar o sensor magnético ao motor para a sincronia da válvula do bico injetor com o motor de 2 tempos.
+
+</br>
+===========================================================================================
+## Semanas dos dias 26 de dezembro e 02 de janeiro
+
+Fomos a loja de materiais de construção e compramos:</br>
+- Tubos de cola quente;</br>
+- WD-40;</br>
+- Braçadeiras;</br>
+- Mangueira de nível;</br>
+</br>
+A fonte foi testada e ela está alimentando a bomba. A bomba possui, em sua parte inferior, a entrada do combustível. E na parte superior, a saída do mesmo.</br>
+A nossa bomba precisa ficar submersa no combustível, com a parte inferor voltada para baixo, para que seja possível puxar o combustível. Compramos uma mangueira</br>
+de nível para acoplar na saída da bomba (já que a mangueira que vem junto com a bomba não tem comprimento suficiente), para assim conectar com o bico injetor.</br>
+E para manter os circuitos longe do tanque, fizemos aquisições de mais jumpers, sendo todos fêmeas de um lado e macho no outro, com isto, o Driver L298n fica</br>
+distante do tanque e ainda conseguindo alimentar o bico.</br>
+</br>
+O último suporte do bico impresso pela impressora 3d ficou com um pequeno furo. Então a ideia era fazer outra impressão, mas a correia da impressora arrebentou</br>
+Então fizemos a aquisição de uma nova correira, mas esta correia é mais curta do que a do modelo da impressora. Então vedamos o furo da peça com cola quente.</br>
+</br>
+O bico possui um plug que não temos, até agora estávamos apenas colocando os fios diretamente nos conectores do bico. Então aplicamos WD-40 no plug, e com esta parte</br> "untada", passamos cola quente no mesmo, para produzir o nosso próprio plug do bico. Esta peça de material de cola quente ficou muito boa e com encaixe perfeito do plug.</br>
+Então fizemos um furo nesta nova peça e colocamos dois pregos para fazer contado com o plug. E agora além de termos alcance do driver com o bico (através dos jumpers),</br>
+agora temos uma conexão fixa e segura.</br>
+</br>
+Antes de fazermos os testes com o combustível, fizemos um teste com água, para verificar se a bomba puxaria corretamente o fluido, e sim, está funcionando corretamente.</br>
+A bomba consegue puxar o fluido e expelir pela outra ponta, como esperado. Posteriormente, fizemos o teste da válvula, para verificar se o fluxo do fluido estaria </br>
+sendo devidamente controlada, e sim também.</br>
+</br>
+Em suma, em relação aos testes:</br>
+- O código de leitura da sonda lambda, upado no arduino está funcionando corretamente;</br>
+- Os testes da sonda lambda estão gerando leitura dentro do esperado de acordo com seu código;</br>
+- Fizemos o deploy do código no Arduino, e está funcionando corretamente;</br>
+- A fonte 12v - 2A está alimentando o bico tranquilamente;</br>
+- Aparentemente o Arduíno está controlando o driver L298n corretamente;</br>
+- O driver L298n está controlando o bico injetor corretamente;</br>
+- A fonte Gamemax gp 400a está alimentando a bomba de combustível corretamente;
+- E com a conexão do arduino, da ponte, das fontes, do bico e da bomba, estão funcionado conforme o esperado, i.e., a bomba está puxando a água*</br>
+  e o bico está efetuando o controle do fluxo conforme o esperado;</br>
+  *Utilizamos água para os testes antes do combustível.
+
+</br>
+Com estas partes testadas (de forma individual e todas conectadas), só precisamos fazer este sistema alimentar o motor da serra elétrica,</br>
+ou seja, fazer o teste com o combustível.</br>
+E apesar de tudo estar encaminhando bem,  acabamos danificando a bomba. O que aconteceu foi que ocorreu um vazamento na conexão da bomba com a mangueira,</br>
+e ao tentarmos deixar a braçadeira mais justa, acabamos quebrando o encaixe da bomba.</br>
+Então tivemos que comprar uma nova bomba e estamos aguardando sua chegada, a previsão de chegada é hoje (09.01.22).
